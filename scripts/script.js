@@ -6,7 +6,7 @@ const credits = document.querySelector('#creditos'),
 
 credits.addEventListener('click', () => {
     swal({
-        text: '¿Deseas redirigirte al portafolio del creador de esta página?',
+        text: 'Portafolio Web',
         buttons: {
             no: {
                 text: 'Permanecer aquí',
@@ -24,7 +24,6 @@ credits.addEventListener('click', () => {
                 break;
             case "leave":
                 swal({
-                    icon: 'success',
                     title: 'En breve irás allí',
                 });
                 setTimeout(() => {
@@ -36,33 +35,34 @@ credits.addEventListener('click', () => {
 });
 
 iconos.forEach(i => {
-    swal({
-        text: `Estás por ir a ${i.name}`,
-        buttons: {
-            no: {
-                text: 'Permanecer aquí',
-                value: 'stay',
+    i.addEventListener('click', () => {
+        swal({
+            text: `Estás por ir a ${i.name}`,
+            buttons: {
+                no: {
+                    text: 'VOLVER',
+                    value: 'stay',
+                },
+                si: {
+                    text: `${i.name}`,
+                    value: 'leave',
+                },
             },
-            si: {
-                text: `Ir a ${i.name}`,
-                value: 'leave',
-            },
-        },
-    })
-    .then(value => {
-        switch (value) {
-            case "stay":
-                break;
-            case "leave":
-                swal({
-                    icon: 'success',
-                    title: `En breve irás a la materia de ${i.name}`,
-                });
-                setTimeout(() => {
-                    window.open(`./pages/${i.name}.html`,'_self');
-                }, 2000);
-                break;
-        };
+        })
+        .then(value => {
+            switch (value) {
+                case "stay":
+                    break;
+                case "leave":
+                    swal({
+                        title: `En breve irás a ${i.name}`,
+                        timer: 2000,
+                    });
+                    setTimeout(() => {
+                        window.open(`./pages/${i.name}.html`,'_self');
+                    }, 2500);
+                    break;
+            };
+        });
     });
-    console.log(i.name)
 });

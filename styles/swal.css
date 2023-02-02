@@ -1,5 +1,9 @@
 /* - SweetAlert - */
 
+.swal-modal {
+    background: #D3F03B;
+    border-radius: 15px;
+}
 .swal-text {
     text-align: center;
     font-size: 2rem;
