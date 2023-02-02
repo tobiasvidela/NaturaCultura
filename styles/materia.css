@@ -13,12 +13,10 @@
     flex-direction: column;
     align-items: center;
     background: #D3F03B;
-    position: relative;
 }
 .footer {
-    position: absolute;
-    bottom: 0;
-    border-top: 2px solid #F0970A;
+    margin-top: 20px;
+    border-top: 4px solid #F0970A;
     padding: 20px 0;
 }
 .footer h4 {
@@ -42,11 +40,20 @@
     margin-top: 20px;
     color: rgb(120,120,120);
 }
+#wsp-msj {
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+#wsp-msj:hover {
+    color: rgb(120,120,120);
+}
 
 /* - Barra de Navegación - */
 .navbar {
     width: 100vw;
     background: none;
+    margin-bottom: 20px;
 }
 .navbar-fondo {
     background: none;
@@ -57,7 +64,7 @@
 .navbar-brand img{
     width: 100px;
     background: none;
-    filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));
+    filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.5));
 }
 .nav-item {
     font-size: 2rem;
@@ -80,8 +87,46 @@
 .nav-item:hover::after {
     width: 100%;
 }
+
+/* - Título - */
+
+.titulo {
+    margin: 20px 0;
+    width: 100%;
+    padding-top: 80px;
+    border-top: 4px solid #F0970A;
+}
+.titulo h1 {
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+    font-family: Verdana, sans-serif;
+    color: black;
+    margin: 10px 0;
+    transition: all .5s ease-out
+}
+.titulo h6 {
+    padding-left: 25px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgb(82, 82, 82);
+    transition: all .5s ease-out
+}
+
 /* - Contenido - */
 
+.main {
+    border: 2px solid red;
+    width: 90%;
+    padding: 10px 0;
+    margin-bottom: 100px;
+}
+.row * {
+    border: 1px dotted blueviolet;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
 
 /* - Media Queries - */
 @media screen and (max-width: 768px) {
@@ -90,5 +135,17 @@
     }
     .fa-square-caret-down {
         font-size: 2rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .titulo h1 {
+        font-size: 2em;
+        transition: all .5s ease;
+    }
+    .titulo h6 {
+        padding: 0;
+        text-align: center;
+        font-size: 12px;
+        transition: all .5s ease;
     }
 }
