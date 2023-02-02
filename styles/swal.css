@@ -1,0 +1,29 @@
+/* - SweetAlert - */
+
+.swal-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.swal-button {
+    background: linear-gradient(-45deg, #fff 50%, #F0970A 50%);
+    background-position: 100%;
+    background-size: 300%;
+    transition: 1s ease background;
+    color: black;
+}
+.swal-button:focus {
+    color: black;
+    background: linear-gradient(-45deg, #fff 50%, #84E05E 50%);
+    background-position: 100%;
+    background-size: 300%;
+    transition: 1s ease background;
+}
+.swal-button:hover {
+    background-position: 0;
+    color: black;
+}
+.swal-footer {
+    text-align: center;
+    color: black;
+}
