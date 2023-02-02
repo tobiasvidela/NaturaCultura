@@ -1,5 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); /*Poppins Google Font*/
+
+/* - General - */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #FAC52C, #D3F03B);
+    background-size: 200%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #333;
+    cursor: pointer;
+}
+.materias {
+    background: #F0970A;
+    border: none;
+    border-radius: 22px;
+    padding: 5px;
+    width: max-content;
+    column-gap: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .4),
+                0 -10px 20px rgba(0, 0, 0, .4);
+}
+.materia {
+    padding: 15px 0 0 0;
+    margin: 20px 0;
+}
+.materia-icono {
+    max-width: 130px;
+    cursor: pointer;
+}
+
+/* - General - */
+
+@media screen and (max-width:400px) {
+    .materia img {
+        width: 200px;
+    }
 }
