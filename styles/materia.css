@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
 }
 .bodyFix {
     min-height: 100vh;
@@ -51,7 +52,7 @@
 
 /* - Barra de Navegación - */
 .navbar {
-    width: 100vw;
+    width: 98vw;
     background: none;
     margin-bottom: 20px;
 }
@@ -103,29 +104,87 @@
     font-family: Verdana, sans-serif;
     color: black;
     margin: 10px 0;
-    transition: all .5s ease-out
+    transition: all .5s ease-out;
 }
 .titulo h6 {
     padding-left: 25px;
     font-size: 1.2em;
     font-weight: 400;
     color: rgb(82, 82, 82);
-    transition: all .5s ease-out
+    transition: all .5s ease-out;
 }
 
 /* - Contenido - */
 
 .main {
-    border: 2px solid red;
     width: 90%;
     padding: 10px 0;
+    margin-top: 10vh;
     margin-bottom: 100px;
+    transition: all .4s ease;
 }
-.row * {
-    border: 1px dotted blueviolet;
+.aside {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #F0970A;
     width: 200px;
-    height: 300px;
+    height: fit-content;
     margin: auto;
+    margin-bottom: 20px;
+    box-shadow: -2px -2px 15px #00000050,
+                2px 2px 15px #00000050;
+}
+.descripcion {
+    padding: 7px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.descripcion a {
+    color: black;
+}
+.acordeones {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #F0970A;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: -2px -2px 15px #00000050,
+                2px 2px 15px #00000050;
+}
+.acordeones h2 {
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: start;
+    transition: all .8s ease;
+}
+.unidad {
+    display: none;
+    background-color: #FAC52C;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 7px 5px 0 5px;
+    cursor: pointer;
+}
+.temas {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    transition: all .8s ease;
+}
+.tema {
+    margin: 5px;
+    padding: 7px 7px 0 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* - Media Queries - */
