@@ -94,8 +94,7 @@
 .titulo {
     margin: 20px 0;
     width: 100%;
-    padding-top: 80px;
-    border-top: 4px solid #F0970A;
+    padding-top: 40px;
 }
 .titulo h1 {
     text-align: center;
@@ -187,6 +186,33 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+/**/
+
+.seccion {
+    width: 90vw;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: -2px -2px 15px #00000050,
+                2px 2px 15px #00000050;
+}
+header {
+    border-bottom: 4px solid #F0970A;
+}
+.encabezado {
+    width: 100%;
+    background-color: #84E05E;
+}
+.encabezado-descripcion p {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+
+/**/
+
 
 /* - Media Queries - */
 @media screen and (max-width: 768px) {

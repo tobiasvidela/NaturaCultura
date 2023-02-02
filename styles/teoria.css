@@ -1,0 +1,12 @@
+/* - modificaciones para la pagina de teoria - */
+
+.temas {
+    border: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tema {
+    border: 1px solid black;
+    color: black;
+}
