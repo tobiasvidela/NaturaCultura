@@ -13,7 +13,8 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/6037/6037701.png" type="image/x-icon">
     <!-- ESTILOS -->
-    <link rel="stylesheet" href="../styles/materia.css">
+    <link rel="stylesheet" href="../styles/plantilla-primaria.css">
+    <link rel="stylesheet" href="../styles/plantilla-secundaria.css">
     <link rel="stylesheet" href="../styles/swal.css">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
@@ -52,11 +53,92 @@
     </header>
 
     <section class="main text-center d-grid justify-content-center">
-      <div class="encabezado seccion col-12">
-        <div class="encabezado-titulo"></div>
-        <div class="encabezado-descripcion"></div>
+      <div class="encabezado seccion titulo col-12">
+          <h1>Anexos</h1>
+        <div class="encabezado-descripcion">
+          <p>Aquí encontrarás toda la documentación extra relacionada con la materia, separada por unidad y tema.<br>
+             Para navegar por los distintos elementos anexos: haz click en la unidad correspondiente, y luego en el tema deseado.<br>
+             De esta manera, al final de la página, podrás visualizar el documento correspondiente.</p>
+        </div>
       </div>
-  </section>
+      <div class="contrato seccion">
+        <h4>Contrato Pedagógico</h4>
+        <div class="encabezado-descripcion">
+          <p>
+            [Descripción del Contrato pedagógico].<br>
+            Para poder visualizarlo debes hacer click en el ícono de debajo:
+          </p>
+        </div>
+        <i class="fa-solid fa-file-signature" id="contrato"></i>
+      </div>
+      <div class="acordeones seccion col-12">
+        <h2><i class="fa-solid fa-caret-down"></i> Unidad 1</h2>
+        <div class="temas">
+            <div class="tema">
+              <h6>1</h6>
+            </div>
+            <div class="tema">
+              <h6>2</h6>
+            </div>
+            <div class="tema">
+              <h6>3</h6>
+            </div>
+            <div class="tema">
+              <h6>4</h6>
+            </div>
+        </div>
+        <h2><i class="fa-solid fa-caret-down"></i> Unidad 2</h2>
+        <div class="temas">
+            <div class="tema">
+              <h6>1</h6>
+            </div>
+            <div class="tema">
+              <h6>2</h6>
+            </div>
+            <div class="tema">
+              <h6>3</h6>
+            </div>
+            <div class="tema">
+              <h6>4</h6>
+            </div>
+        </div>
+        <h2><i class="fa-solid fa-caret-down"></i> Unidad 3</h2>
+        <div class="temas">
+            <div class="tema">
+              <h6>1</h6>
+            </div>
+            <div class="tema">
+              <h6>2</h6>
+            </div>
+            <div class="tema">
+              <h6>3</h6>
+            </div>
+            <div class="tema">
+              <h6>4</h6>
+            </div>
+        </div>
+        <h2><i class="fa-solid fa-caret-down"></i> Unidad 4</h2>
+        <div class="temas">
+            <div class="tema">
+              <h6>1</h6>
+            </div>
+            <div class="tema">
+              <h6>2</h6>
+            </div>
+            <div class="tema">
+              <h6>3</h6>
+            </div>
+            <div class="tema">
+              <h6>4</h6>
+            </div>
+        </div>
+      </div>
+      <div class="preview seccion">
+        <div class="documento-output">
+          <iframe src="https://drive.google.com/file/d/1vLWCW6j--erbykJNrWUjIVrC9_rTsKxa/preview" frameborder="0" id="output"></iframe>
+        </div>
+      </div>
+    </section>
 
     <section class="footer container-fluid text-center d-flex flex-column align-items-center">
         <h5>Profesora a cargo:</h5>
@@ -74,6 +156,8 @@
 
     <!-- SCRIPTS -->
     <script src="../scripts/wsp-msj.js"></script>
+    <script src="../scripts/plantilla-secundaria.js"></script>
+    <script src="../scripts/anexos.js"></script>
     <!-- SWEETALERT -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- BOOTSTRAP -->
