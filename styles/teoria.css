@@ -1,5 +1,9 @@
 /* - modificaciones para la pagina de teoria - */
 
+
+.titulo {
+    max-width: 90vw;
+}
 .temas {
     border: none;
     flex-direction: row;
@@ -9,4 +13,7 @@
 .tema {
     border: 1px solid black;
     color: black;
+}
+.acordeones {
+    max-width: 90vw;
 }

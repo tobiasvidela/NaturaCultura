@@ -8,6 +8,9 @@
     font-family: 'Poppins', sans-serif;
     /* border: 1px solid red; */
 }
+header {
+    border-bottom: 4px solid #F0970A;
+}
 .bodyFix {
     min-height: 100vh;
     display: flex;
@@ -68,8 +71,8 @@
     filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.5));
 }
 .nav-item {
-    font-size: 2rem;
-    margin: 0 20px;
+    font-size: 1.7rem;
+    margin: 0 10px;
     padding: 5px;
 }
 .nav-item .active {
@@ -196,9 +199,6 @@
     padding: 1em;
     box-shadow: -2px -2px 15px #00000050,
                 2px 2px 15px #00000050;
-}
-header {
-    border-bottom: 4px solid #F0970A;
 }
 .encabezado {
     width: 100%;
