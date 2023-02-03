@@ -58,8 +58,21 @@ iconos.forEach(i => {
                         title: `En breve irás a ${i.name}`,
                         timer: 2000,
                     });
+                    let firstLetter = i.name.substring(0,1).toUpperCase();
+                    let name = i.name.substring(1,i.name.length).toLowerCase();
+                    let final = firstLetter + name;
+
+                    if (final.includes('Biologia')) {
+                        if (final.endsWith('-i')) {
+                            let i = final.lastIndexOf('i');
+                            final = 'Biologia-I';
+                        } else {
+                            final = 'Biologia-II';
+                        };
+                    };
+                    
                     setTimeout(() => {
-                        window.open(`../pages/${i.name}.html`,'_self');
+                        window.open(`./pages/${final}.html`,'_self');
                     }, 2500);
                     break;
             };
