@@ -59,7 +59,7 @@ iconos.forEach(i => {
                         timer: 2000,
                     });
                     setTimeout(() => {
-                        window.open(`./pages/${i.name}.html`,'_self');
+                        window.open(`../pages/${i.name}.html`,'_self');
                     }, 2500);
                     break;
             };
