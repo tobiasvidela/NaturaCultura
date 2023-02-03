@@ -70,9 +70,9 @@ iconos.forEach(i => {
                             final = 'Biologia-II';
                         };
                     };
-                    
+
                     setTimeout(() => {
-                        window.open(`./pages/${final}.html`,'_self');
+                        window.open(`https://tobiasvidela.github.io/NaturaCultura/pages/${final}.html`,'_self');
                     }, 2500);
                     break;
             };
