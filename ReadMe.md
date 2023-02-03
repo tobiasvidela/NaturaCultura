@@ -10,4 +10,3 @@ Conjunto de páginas web para las materias de Botánica, Biología, y Taller de 
 1. HTML5
 1. CSS3 - con Bootstrap
 1. Javascript
-1. Google Drive API
