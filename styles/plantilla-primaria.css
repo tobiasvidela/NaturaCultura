@@ -6,21 +6,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* border: 1px solid red; */
-}
-header {
-    border-bottom: 4px solid #F0970A;
 }
 .bodyFix {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #D3F03B;
 }
 .footer {
     margin-top: 20px;
-    border-top: 4px solid #F0970A;
     padding: 20px 0;
 }
 .footer h4 {
@@ -77,7 +71,6 @@ header {
 }
 .nav-item .active {
     margin-bottom: -2px;
-    border-bottom: 2px solid #F0970A;
 }
 .nav-item::after {
     display: block;
@@ -85,7 +78,6 @@ header {
     margin: auto;
     width: 0;
     height: 2px;
-    background-color: #FAC52C;
     transition: width 0.3s;
 }
 .nav-item:hover::after {
@@ -128,7 +120,6 @@ header {
 .aside {
     border: 2px solid black;
     border-radius: 12px;
-    background-color: #F0970A;
     width: 200px;
     height: fit-content;
     margin: auto;
@@ -148,7 +139,6 @@ header {
 .acordeones {
     border: 2px solid black;
     border-radius: 12px;
-    background-color: #F0970A;
     width: 300px;
     margin: auto;
     padding: 20px;
@@ -167,7 +157,6 @@ header {
 }
 .unidad {
     display: none;
-    background-color: #FAC52C;
     border: 2px solid black;
     border-radius: 7px;
     margin: 5px;
@@ -202,7 +191,6 @@ header {
 }
 .encabezado {
     width: 100%;
-    background-color: #84E05E;
 }
 .encabezado-descripcion p {
     font-size: 1em;
@@ -213,9 +201,7 @@ header {
 
 /**/
 
-.preview {
-    background-color: #F0970A;
-}
+
 .documento-output {
     height: 800px;
 }

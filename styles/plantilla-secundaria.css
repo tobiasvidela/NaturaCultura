@@ -25,6 +25,7 @@
     font-weight: bold;
     color: black;
 }
+.tutorial h4,
 .contrato h4,
 .trabajo-anual h4 {
     font-weight: 900;
@@ -40,4 +41,35 @@
 }
 .trabajo-anual i:hover {
     color: rgb(90, 40, 7);
+}
+
+/* anexos */
+
+.tutorial {
+    height: 400px;
+}
+.tutorial iframe {
+    border-radius: 7px;
+    width: 75%;
+    height: 85%;
+}
+
+@media screen and (max-width: 768px) {
+    .tutorial iframe {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .tutorial h4,
+    .contrato h4,
+    .trabajo-anual h4 {
+        font-size: 2em;
+    }
+    .tutorial {
+        height: 225px;
+    }
+    .tutorial iframe {
+        width: 80%;
+        height: 70%;
+    }
 }

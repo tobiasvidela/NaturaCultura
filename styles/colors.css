@@ -1,0 +1,115 @@
+/* Botanica COLORES */
+
+.colors-botanica header {
+    border-bottom: 4px solid #F0970A;
+}
+.bodyFix.colors-botanica {
+    background: #F2CE16;
+}
+.colors-botanica .encabezado.titulo {
+    background: #F27D16;
+}
+.colors-botanica .trabajo-anual,
+.colors-botanica .tutorial,
+.colors-botanica .contrato {
+    background: #F2A516;
+}
+.colors-botanica .tema {
+    font-weight: 900;
+    color: black;
+    background-color: #FAC52C;
+}
+.colors-botanica .footer {
+    border-top: 4px solid #F0970A;
+}
+        /*navbar*/
+.colors-botanica .nav-item .active {
+    border-bottom: 2px solid #F0970A;
+}
+.colors-botanica .nav-item::after {
+    background-color: #F2B705;
+}
+        /*main*/
+.colors-botanica .aside,
+.colors-botanica .acordeones,
+.colors-botanica .preview {
+    background-color: #F0970A;
+}
+.colors-botanica .unidad {
+    background-color: #FAC52C;
+}
+
+
+/* Biología I COLORES */
+
+.colors-biologia1 header {
+    border-bottom: 4px solid #2C7BBF;
+}
+.bodyFix.colors-biologia1 {
+    background: #F2E2CE;
+}
+.colors-biologia1 .encabezado.titulo {
+    background: #69BFBF;
+}
+.colors-biologia1 .trabajo-anual,
+.colors-biologia1 .tutorial,
+.colors-biologia1 .contrato {
+    background: #69BFBF;
+    color: black;
+}
+.colors-biologia1 .tema {
+    font-weight: 900;
+    color: black;
+    background: #69BFBF;
+}
+.colors-biologia1 .footer {
+    border-top: 4px solid #2C7BBF;
+}
+        /*navbar*/
+.colors-biologia1 .nav-item .active {
+    border-bottom: 2px solid #2C7BBF;
+}
+.colors-biologia1 .nav-item::after {
+    background-color: #89B3D9;
+}
+        /*main*/
+.colors-biologia1 .aside,
+.colors-biologia1 .acordeones,
+.colors-biologia1 .preview {
+    background-color: #4184BF;
+}
+.colors-biologia1 .unidad {
+    background-color: #89B3D9;
+}
+
+
+/* Biología II COLORES */
+
+.bodyFix.colors-biologia2 {
+    background: white;
+}
+.encabezado.titulo.colors-biologia2 {
+    background: white;
+}
+.trabajo-anual.colors-biologia2,
+.tutorial.colors-biologia2,
+.contrato.colors-biologia2 {
+    background: white;
+}
+
+
+/* Taller COLORES */
+
+.bodyFix.colors-taller {
+    background: white;
+}
+.encabezado.titulo.colors-taller {
+    background: white;
+}
+.trabajo-anual.colors-taller,
+.tutorial.colors-taller,
+.contrato.colors-taller {
+    background: white;
+}
+
+
