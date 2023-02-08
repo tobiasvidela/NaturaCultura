@@ -36,6 +36,7 @@
 .colors-botanica .acordeones h2,
 .colors-botanica .unidad {
     border: 2px solid black;
+    color: black;
 }
 .colors-botanica .aside,
 .colors-botanica .acordeones,
@@ -86,6 +87,7 @@
 .colors-biologia1 .acordeones h2,
 .colors-biologia1 .unidad {
     border: 2px solid black;
+    color: black;
 }
 .colors-biologia1 .aside,
 .colors-biologia1 .acordeones,
@@ -138,6 +140,7 @@
 .colors-biologia2 .acordeones,
 .colors-biologia2 .unidad {
     border: 2px solid #8C0303;
+    color: black;
 }
 .colors-biologia2 .aside,
 .colors-biologia2 .acordeones,
@@ -151,16 +154,52 @@
 
 /* Taller COLORES */
 
+.colors-taller header {
+    border-bottom: 4px solid #A62103;
+}
 .bodyFix.colors-taller {
-    background: white;
+    background: #F29F05;
 }
-.encabezado.titulo.colors-taller {
-    background: white;
+.colors-taller .encabezado.titulo {
+    background: #F2B705;
 }
-.trabajo-anual.colors-taller,
-.tutorial.colors-taller,
-.contrato.colors-taller {
-    background: white;
+.colors-taller .trabajo-anual,
+.colors-taller .tutorial,
+.colors-taller .contrato {
+    background: #F27405;
+    color: black;
 }
+.colors-taller .tema {
+    font-weight: 900;
+    color: black;
+    background: #F29F05;
+}
+.colors-taller .footer {
+    border-top: 4px solid #A62103;
+}
+        /*navbar*/
+.colors-taller .nav-item .active {
+    border-bottom: 2px solid #A62103;
+}
+.colors-taller .nav-item::after {
+    background-color: #D93D04;
+}
+        /*main*/
 
-
+.colors-taller .unidad,
+.colors-taller .acordeones h2 {
+    border: 2px solid black;
+    color: black;
+}
+.colors-taller .aside,
+.colors-taller .acordeones {
+    border: 2px solid black;
+}
+.colors-taller .aside,
+.colors-taller .acordeones,
+.colors-taller .preview {
+    background-color: #F25C05;
+}
+.colors-taller .unidad {
+    background-color: #F28705;
+}
