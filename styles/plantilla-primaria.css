@@ -118,7 +118,6 @@
     transition: all .4s ease;
 }
 .aside {
-    border: 2px solid black;
     border-radius: 12px;
     width: 200px;
     height: fit-content;
@@ -137,7 +136,6 @@
     color: black;
 }
 .acordeones {
-    border: 2px solid black;
     border-radius: 12px;
     width: 300px;
     margin: auto;
@@ -150,14 +148,12 @@
     font-size: 2em;
     font-weight: bold;
     color: black;
-    border: 2px solid black;
     border-radius: 12px;
     text-align: start;
     transition: all .8s ease;
 }
 .unidad {
     display: none;
-    border: 2px solid black;
     border-radius: 7px;
     margin: 5px;
     padding: 7px 5px 0 5px;

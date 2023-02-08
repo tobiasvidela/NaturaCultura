@@ -30,6 +30,13 @@
     background-color: #F2B705;
 }
         /*main*/
+
+.colors-botanica .aside,
+.colors-botanica .acordeones,
+.colors-botanica .acordeones h2,
+.colors-botanica .unidad {
+    border: 2px solid black;
+}
 .colors-botanica .aside,
 .colors-botanica .acordeones,
 .colors-botanica .preview {
@@ -73,6 +80,13 @@
     background-color: #89B3D9;
 }
         /*main*/
+
+.colors-biologia1 .aside,
+.colors-biologia1 .acordeones,
+.colors-biologia1 .acordeones h2,
+.colors-biologia1 .unidad {
+    border: 2px solid black;
+}
 .colors-biologia1 .aside,
 .colors-biologia1 .acordeones,
 .colors-biologia1 .preview {
@@ -85,16 +99,53 @@
 
 /* Biología II COLORES */
 
+.colors-biologia2 header {
+    border-bottom: 4px solid #8C0303;
+}
 .bodyFix.colors-biologia2 {
-    background: white;
+    background: #F2E3B3;
 }
-.encabezado.titulo.colors-biologia2 {
-    background: white;
+.colors-biologia2 .encabezado.titulo {
+    background: #BF8756;
 }
-.trabajo-anual.colors-biologia2,
-.tutorial.colors-biologia2,
-.contrato.colors-biologia2 {
-    background: white;
+.colors-biologia2 .trabajo-anual,
+.colors-biologia2 .tutorial,
+.colors-biologia2 .contrato {
+    background: #F2C288;
+    color: black;
+}
+.colors-biologia2 .tema {
+    font-weight: 900;
+    color: black;
+    background: #F2EEB3;
+}
+.colors-biologia2 .footer {
+    border-top: 4px solid #8C0303;
+}
+        /*navbar*/
+.colors-biologia2 .nav-item .active {
+    border-bottom: 2px solid #8C0303;
+}
+.colors-biologia2 .nav-item::after {
+    background-color: #BF0A0A;
+}
+        /*main*/
+
+.colors-biologia2 .acordeones h2 {
+    border: 2px solid black;
+}
+.colors-biologia2 .aside,
+.colors-biologia2 .acordeones,
+.colors-biologia2 .unidad {
+    border: 2px solid #8C0303;
+}
+.colors-biologia2 .aside,
+.colors-biologia2 .acordeones,
+.colors-biologia2 .preview {
+    background-color: #F2C288;
+}
+.colors-biologia2 .unidad {
+    background-color: #F2D6B3;
 }
 
 
