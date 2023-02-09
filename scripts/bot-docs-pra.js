@@ -10,6 +10,7 @@ const temas1 = document.querySelectorAll('.tema > h6');
 const descarga1 = document.querySelector('.descarga');
 const storedPDF1 = localStorage.getItem('storedPDF1');
 
+
 /**
  * BOTANICA
 */
@@ -21,6 +22,7 @@ if (storedPDF1 && output1) {
 
 temas1.forEach(t => {
     t.addEventListener('click', () => {
+        
         let path = t.dataset.dir;
         let redir = t.dataset.redir;
         

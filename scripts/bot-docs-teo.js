@@ -21,6 +21,7 @@ if (storedPDF && output) {
 
 temas.forEach(t => {
     t.addEventListener('click', () => {
+
         let path = t.dataset.dir;
         let redir = t.dataset.redir;
         

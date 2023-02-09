@@ -73,7 +73,7 @@ iconos.forEach(i => {
 
                     console.log(final)
                     setTimeout(() => {
-                        window.open(`https://tobiasvidela.github.io/NaturaCultura/pages/${final}.html`,'_self');
+                        window.open(`./pages/${final}.html`,'_self');
                     }, 2500);
                     break;
             };
