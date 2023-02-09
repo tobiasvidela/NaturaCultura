@@ -1,33 +1,33 @@
 /* Botanica COLORES */
 
 .colors-botanica header {
-    border-bottom: 4px solid #F0970A;
+    border-bottom: 4px solid #8B4513;
 }
 .bodyFix.colors-botanica {
-    background: #F2CE16;
+    background: #77A874;
 }
 .colors-botanica .encabezado.titulo {
-    background: #F27D16;
+    background: #90EE90;
 }
 .colors-botanica .trabajo-anual,
 .colors-botanica .tutorial,
 .colors-botanica .contrato {
-    background: #F2A516;
+    background: #8FBC8F;
 }
 .colors-botanica .tema {
     font-weight: 900;
     color: black;
-    background-color: #FAC52C;
+    background-color: #D4E6D0;
 }
 .colors-botanica .footer {
-    border-top: 4px solid #F0970A;
+    border-top: 4px solid #8B4513;
 }
         /*navbar*/
 .colors-botanica .nav-item .active {
-    border-bottom: 2px solid #F0970A;
+    border-bottom: 2px solid #D4E6D0;
 }
 .colors-botanica .nav-item::after {
-    background-color: #F2B705;
+    background-color: #F9E79F;
 }
         /*main*/
 
@@ -41,10 +41,15 @@
 .colors-botanica .aside,
 .colors-botanica .acordeones,
 .colors-botanica .preview {
-    background-color: #F0970A;
+    background-color: #D4E6D0;
 }
 .colors-botanica .unidad {
-    background-color: #FAC52C;
+    background-color: #D4E6D0;
+}
+.colors-botanica .descarga {
+    color: black;
+    background-color: #90EE90;
+    border: 2px solid black;
 }
 
 
@@ -96,6 +101,11 @@
 }
 .colors-biologia1 .unidad {
     background-color: #89B3D9;
+}
+.colors-biologia1 .descarga {
+    color: black;
+    background-color: #89B3D9;
+    border: 2px solid black;
 }
 
 
@@ -150,6 +160,11 @@
 .colors-biologia2 .unidad {
     background-color: #F2D6B3;
 }
+.colors-biologia2 .descarga {
+    color: black;
+    background-color: #F2C288;
+    border: 2px solid #8C0303;
+}
 
 
 /* Taller COLORES */
@@ -202,4 +217,9 @@
 }
 .colors-taller .unidad {
     background-color: #F28705;
+}
+.colors-taller .descarga {
+    color: black;
+    background-color: #D93D04;
+    border: 2px solid black;
 }

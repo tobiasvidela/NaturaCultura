@@ -1,4 +1,18 @@
-/* - modificaciones para la pagina de teoria - */
+/*teo-pra-ane*/
+
+.descarga {
+    text-decoration: none;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 7px 12px;
+    font-size: 1.5em;
+    font-weight: 800;
+    border-radius: 12px;
+    box-shadow: -2px -2px 15px #00000050,
+                2px 2px 15px #00000050;
+}
+
+/* teoria - */
 
 
 .titulo {
