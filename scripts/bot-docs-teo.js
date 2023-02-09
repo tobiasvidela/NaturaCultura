@@ -7,6 +7,7 @@
 
 const output = document.querySelector('.output');
 const temas = document.querySelectorAll('.tema > h6');
+const descarga = document.querySelector('.descarga');
 const storedPDF = localStorage.getItem('storedPDF');
 
 /**
@@ -15,6 +16,7 @@ const storedPDF = localStorage.getItem('storedPDF');
 
 if (storedPDF && output) {
     output.setAttribute('src', `../content/${storedPDF}`);
+    descarga.setAttribute('href', `../content/${storedPDF}`);
 };
 
 temas.forEach(t => {
@@ -28,6 +30,7 @@ temas.forEach(t => {
         };
 
         output.setAttribute('src', `../content/${path}`);
+        descarga.setAttribute('href', `../content/${path}`);
     });
 });
 

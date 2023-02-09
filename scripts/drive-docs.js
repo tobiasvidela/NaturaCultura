@@ -7,6 +7,7 @@
 
 const output = document.querySelector('.output');
 const temas = document.querySelectorAll('.tema > h6');
+
 const storedPDF = localStorage.getItem('storedPDF');
 
 /**
@@ -21,6 +22,7 @@ temas.forEach(t => {
     t.addEventListener('click', () => {
         let path = t.dataset.dir;
         let redir = t.dataset.redir;
+        
         
         if (redir) {
             localStorage.setItem('storedPDF', `${path}`);
