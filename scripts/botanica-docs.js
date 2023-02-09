@@ -31,27 +31,3 @@ temas.forEach(t => {
     });
 });
 
-
-
-/**
- * BIOLOGIA1
- */
-
-
-
-
-
-/**
- * BIOLOGIA2
- */
-
-
-
-
-
-/**
- * TALLER
- */
-
-
-

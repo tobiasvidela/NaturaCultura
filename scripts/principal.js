@@ -20,7 +20,7 @@ acordeones.forEach(acordeon => {
                 if (acordeon.classList.contains('abierto')) {
                     el.style.display = 'block';
                     h2Icon.classList.replace('fa-caret-down','fa-caret-up');
-                }
+                };
                 if (!acordeon.classList.contains('abierto')) {
                     el.style.display = 'none';
                     h2Icon.classList.replace('fa-caret-up','fa-caret-down');
@@ -32,7 +32,9 @@ acordeones.forEach(acordeon => {
 
 unidades.forEach(u => {
     let stateTemas = false;
-    u.addEventListener('click', () => {
+    let unidadTitulo = u.childNodes[1];
+    
+    unidadTitulo.addEventListener('click', () => {
         const uTemas = u.childNodes[3];
         
         if (!stateTemas) {
